@@ -5,6 +5,9 @@ import java.awt.Color;
 
 public class RobotDriver implements Directions
 {
+    /**
+     * Cloned comment--different user
+     */
     public static void main(String args[])  {
         BeeperBot billy = new BeeperBot(4,1,West,0);
         billy.findAllBeepers();
